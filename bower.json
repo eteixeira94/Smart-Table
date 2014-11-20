@@ -1,9 +1,10 @@
 {
     "name": "smart-table",
-    "version": "1.4.5",
+    "version": "compufor-0.0.1",
     "homepage": "https://github.com/lorenzofox3/Smart-Table",
     "authors": [
-        "lorenzofox3 <laurent34azerty@gmail.com>"
+        "lorenzofox3 <laurent34azerty@gmail.com> (Author)",
+		"ednardo teixeira <ednardo.lds@gmail.com (Develop)"
     ],
     "description": "table module for angular",
     "main": "dist/smart-table.min.js",

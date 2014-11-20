@@ -28,6 +28,10 @@ ng.module('smart-table')
         var pipeAfterSafeCopy = true;
         var ctrl = this;
         var lastSelected;
+		
+		$scope.$watch(propertyName, function() {
+            safeCopy = copyRefs(displayGetter($scope));
+        }, true);
 
         function copyRefs(src) {
             return [].concat(src);
